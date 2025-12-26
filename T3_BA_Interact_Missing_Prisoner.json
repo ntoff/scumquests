@@ -1,0 +1,175 @@
+{
+  "AssociatedNpc": "Banker",
+  "Tier": 3,
+  "Title": "Missing Prisoner",
+  "Description": "A prisoner hasn't been seen on the island for a while now. We know he had an affinity for chimneys, check out the chimneys around the map and see if there's any trace of him.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 2500,
+      "Fame": 100,
+      "Skills": [
+        {
+          "Skill": "Awareness",
+          "Experience": 1000
+        },
+        {
+          "Skill": "Camouflage",
+          "Experience": 1000
+        },
+        {
+          "Skill": "Stealth",
+          "Experience": 1000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Inspect The Mine Chimney",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_1_CoalMine_Entrance.D_1_CoalMine_Entrance:PersistentLevel.BP_IndustrialChimney_2.StaticMeshComponent0",
+          "FallbackTransform": "-458138.593750,425567.875000,98817.945312|0.000000,-140.000153,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/IndustrialChimney/Chimney_02/SM_IndustrialChimney_02.SM_IndustrialChimney_02",
+          "Instance": 2
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 100,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -457737.906,
+            "Y": 425731.062,
+            "Z": 98993.227
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Inspect The B1 Factory Chimney",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_1_Factory_BASE_02.B_1_Factory_BASE_02:PersistentLevel.SM_IndustrialChimney3.StaticMeshComponent0",
+          "FallbackTransform": "-409403.125000,-8354.031250,35232.878906|0.000000,146.257782,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/IndustrialChimney/SM_IndustrialChimney.SM_IndustrialChimney",
+          "Instance": 2
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 100,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -409217.938,
+            "Y": -7706.376,
+            "Z": 35366.602
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Inspect The B3 Factory Chimney",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_3_Rafinery_BASE_02.B_3_Rafinery_BASE_02:PersistentLevel.SM_IndustrialChimney_139.StaticMeshComponent0",
+          "FallbackTransform": "95564.687500,-158010.312500,31232.082031|0.000000,9.087205,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/IndustrialChimney/SM_IndustrialChimney.SM_IndustrialChimney",
+          "Instance": 2
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 100,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 95068.023,
+            "Y": -158474.562,
+            "Z": 31449.424
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Inspect Brick Factory Chimney",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_0_Brick_Factory_11.B_0_Brick_Factory_11:PersistentLevel.BP_BF_Chimney2.SM_BF_Chimney_01",
+          "FallbackTransform": "-773602.375000,-281022.531250,16645.000000|0.000000,-176.059814,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Brick_Factory/Chimney/SM_BF_Chimney_01.SM_BF_Chimney_01",
+          "Instance": 11
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_0_Brick_Factory_11.B_0_Brick_Factory_11:PersistentLevel.BP_BF_Chimney_2.SM_BF_Chimney_01",
+          "FallbackTransform": "-791193.625000,-282234.375000,16645.000000|0.000000,3.940315,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Brick_Factory/Chimney/SM_BF_Chimney_01.SM_BF_Chimney_01",
+          "Instance": 11
+        }
+      ],
+      "MinNeeded": 2,
+      "MaxNeeded": 2,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 100,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -773469.562,
+            "Y": -281578.625,
+            "Z": 16848.949
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Inspect The Reactor Chimney",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/C_0_NuclearPlant_02_ReactorBuilidng_01.C_0_NuclearPlant_02_ReactorBuilidng_01:PersistentLevel.BP_Nuclear_Reactor_Building_3_4_Chimney_reharvested_0.Mesh",
+          "FallbackTransform": "-724508.125000,212724.312500,43959.371094|0.000000,89.999992,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/NuclearPowerPlant/Buildings/ReactorBuilding/ReactorBuilding_3_4/Objects/SM_Reactor_3_4_Chimney.SM_Reactor_3_4_Chimney",
+          "Instance": 1
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 100,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -723679.5,
+            "Y": 215699.953,
+            "Z": 50225.195
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    }
+  ]
+}

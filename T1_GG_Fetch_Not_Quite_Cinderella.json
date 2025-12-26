@@ -1,0 +1,37 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 1,
+  "Title": "Not quite Cinderella",
+  "Description": "Someone stole my slippers and I want them back to keep my toes warm while I sleep. Bring me a pair of bunny slippers.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 500,
+      "Fame": 5,
+      "Skills": [
+        {
+          "Skill": "Awareness",
+          "Experience": 1000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "1 pair of bunny slippers",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Bunny_Slippers"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    }
+  ]
+}

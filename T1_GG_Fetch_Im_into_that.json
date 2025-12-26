@@ -1,0 +1,31 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 1,
+  "Title": "I'm into that",
+  "Description": "Bring me a (small) kitchen cutting board for my extra extracurricular activities and don't ask any questions.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 250,
+      "Fame": 10
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Small cutting board",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Kitchen_Board_01"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "AssociatedNpc": "Doctor",
+  "Tier": 2,
+  "Title": "Accident Prone",
+  "Description": "I have a friend who is always hurting themselves. I need supplies to heal their injuries. Bring me bandages, splints, needles, thread, etc.",
+  "TimeLimitHours": 72.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 5000,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Medical",
+          "Experience": 10000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "Emergency_bandage_Big",
+          "Price": 20,
+          "Amount": 2,
+          "Fame": 1,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Emergency Bandage x3",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Emergency_bandage"
+          ],
+          "RequiredNum": 3
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Splints (short stick) x 4",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Wooden_Stick"
+          ],
+          "RequiredNum": 4
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Needle x2",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Needle",
+            "Bone_Needle"
+          ],
+          "RequiredNum": 2
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Thread x1 (min 5 uses)",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Thread"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemUses": 5
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Syringe x1",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Syringe"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    }
+  ]
+}

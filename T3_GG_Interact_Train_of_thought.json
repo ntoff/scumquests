@@ -1,0 +1,227 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 3,
+  "Title": "Train of thought",
+  "Description": "I lost my train of thought. I need someone to retrace my steps and find it. Follow the train tracks from the B3 refinery and find my train of thought.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 10000,
+      "Fame": 20,
+      "Skills": [
+        {
+          "Skill": "Awareness",
+          "Experience": 10000
+        },
+        {
+          "Skill": "Camouflage",
+          "Experience": 5000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Search the containers",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_3_Rafinery_BASE_03.B_3_Rafinery_BASE_03:PersistentLevel.SM_Container_01_RW_4.StaticMeshComponent0",
+          "FallbackTransform": "99163.531250,-173617.718750,30938.308594|0.000000,89.484779,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Hangar/Containers_01_RW/SM_Container_01_RW.SM_Container_01_RW",
+          "Instance": 3
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_3_Rafinery_BASE_04.B_3_Rafinery_BASE_04:PersistentLevel.SM_Container_01_RW_13.StaticMeshComponent0",
+          "FallbackTransform": "94138.343750,-173664.125000,30913.560547|0.000000,-90.000023,0.000000|1.000938,1.000938,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Hangar/Containers_01_RW/SM_Container_01_RW.SM_Container_01_RW",
+          "Instance": 4
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_3_Rafinery_BASE_04.B_3_Rafinery_BASE_04:PersistentLevel.SM_Container_01_RW_12.StaticMeshComponent0",
+          "FallbackTransform": "88364.125000,-173538.875000,30881.341797|0.000000,-89.276917,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Hangar/Containers_01_RW/SM_Container_01_RW.SM_Container_01_RW",
+          "Instance": 4
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_3_Rafinery_BASE_04.B_3_Rafinery_BASE_04:PersistentLevel.SM_Container_01_RW_20.StaticMeshComponent0",
+          "FallbackTransform": "88183.906250,-173878.375000,30880.212891|0.000000,-87.388786,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Hangar/Containers_01_RW/SM_Container_01_RW.SM_Container_01_RW",
+          "Instance": 4
+        }
+      ],
+      "MinNeeded": 2,
+      "MaxNeeded": 4,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 200,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 93639.07,
+            "Y": -173321.75,
+            "Z": 31007.992
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Search the yellow train cars",
+      "SequenceIndex": 1,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/A_2_Railroad_Bridge.A_2_Railroad_Bridge:PersistentLevel.SM_Train_BoxCar_yellow_WheelsHISMA.HierarchicalInstancedStaticMesh",
+          "FallbackTransform": "-96694.125000,-523656.968750,1344.156250|0.000000,44.672363,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Hangar/Meshes/SM_Train_BoxCar_yellow_Wheels.SM_Train_BoxCar_yellow_Wheels"
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/A_2_Railroad_Bridge.A_2_Railroad_Bridge:PersistentLevel.SM_Train_BoxCar_yellow_WheelsHISMA.HierarchicalInstancedStaticMesh",
+          "FallbackTransform": "-102733.546875,-529627.562500,1344.160156|0.000000,44.672363,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Hangar/Meshes/SM_Train_BoxCar_yellow_Wheels.SM_Train_BoxCar_yellow_Wheels",
+          "Instance": 1
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/A_2_Railroad_Bridge.A_2_Railroad_Bridge:PersistentLevel.SM_Train_BoxCar_yellow_WheelsHISMA.HierarchicalInstancedStaticMesh",
+          "FallbackTransform": "-113354.375000,-540127.312500,1344.167480|0.000000,44.672363,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Hangar/Meshes/SM_Train_BoxCar_yellow_Wheels.SM_Train_BoxCar_yellow_Wheels",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/A_2_Railroad_Bridge.A_2_Railroad_Bridge:PersistentLevel.SM_Train_BoxCar_yellow_WheelsHISMA.HierarchicalInstancedStaticMesh",
+          "FallbackTransform": "-118105.679688,-544824.937500,1344.159180|0.000000,44.672363,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Hangar/Meshes/SM_Train_BoxCar_yellow_Wheels.SM_Train_BoxCar_yellow_Wheels",
+          "Instance": 3
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/A_2_Railroad_Bridge.A_2_Railroad_Bridge:PersistentLevel.SM_Train_BoxCar_yellow_WheelsHISMA.HierarchicalInstancedStaticMesh",
+          "FallbackTransform": "-128843.890625,-555441.312500,1344.177734|0.000000,44.672363,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Hangar/Meshes/SM_Train_BoxCar_yellow_Wheels.SM_Train_BoxCar_yellow_Wheels",
+          "Instance": 4
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/A_2_Railroad_Bridge.A_2_Railroad_Bridge:PersistentLevel.SM_Train_BoxCar_yellow_WheelsHISMA.HierarchicalInstancedStaticMesh",
+          "FallbackTransform": "-131922.515625,-558482.562500,1344.177246|0.000000,44.672363,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Hangar/Meshes/SM_Train_BoxCar_yellow_Wheels.SM_Train_BoxCar_yellow_Wheels",
+          "Instance": 5
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/A_2_Railroad_Bridge.A_2_Railroad_Bridge:PersistentLevel.SM_Train_BoxCar_yellow_WheelsHISMA.HierarchicalInstancedStaticMesh",
+          "FallbackTransform": "-132904.515625,-559460.375000,1344.177246|0.000000,44.672363,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Hangar/Meshes/SM_Train_BoxCar_yellow_Wheels.SM_Train_BoxCar_yellow_Wheels",
+          "Instance": 6
+        }
+      ],
+      "MinNeeded": 4,
+      "MaxNeeded": 7,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 200,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -96936.359,
+            "Y": -523503.812,
+            "Z": 1411.077
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Search the train cars",
+      "SequenceIndex": 2,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_Trainyard_03_INT.Z_1_Trainyard_03_INT:PersistentLevel.BP_Train_Locomotive_8.Locomotive",
+          "FallbackTransform": "-291629.437500,-743488.812500,7844.328613|0.000000,-167.499847,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Trainyard/SM_Train_Locomotive_02.SM_Train_Locomotive_02",
+          "Instance": 8
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_Trainyard_03_INT.Z_1_Trainyard_03_INT:PersistentLevel.BP_Train_Locomotive_1.Wagon_01",
+          "FallbackTransform": "-295762.031250,-744407.375000,7844.328613|0.000000,-167.499817,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Trainyard/SM_Train_Passenger_Wagon_01.SM_Train_Passenger_Wagon_01",
+          "Instance": 1
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_Trainyard_03_INT.Z_1_Trainyard_03_INT:PersistentLevel.BP_Train_Locomotive_7.Locomotive",
+          "FallbackTransform": "-301649.281250,-745710.750000,7844.328613|0.000000,12.500092,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Trainyard/SM_Train_Locomotive_01.SM_Train_Locomotive_01",
+          "Instance": 7
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_Trainyard_03_INT.Z_1_Trainyard_03_INT:PersistentLevel.BP_Train_Locomotive_0.Locomotive",
+          "FallbackTransform": "-301723.937500,-748797.937500,7844.832520|0.000000,12.500111,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Trainyard/SM_Train_Locomotive_01.SM_Train_Locomotive_01"
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_Trainyard_03_INT.Z_1_Trainyard_03_INT:PersistentLevel.BP_Train_Locomotive_02_15.Locomotive",
+          "FallbackTransform": "-298969.375000,-748186.937500,7844.832520|0.000000,12.500072,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Trainyard/SM_Train_Locomotive_02.SM_Train_Locomotive_02",
+          "Instance": 15
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_Trainyard_03_INT.Z_1_Trainyard_03_INT:PersistentLevel.BP_Train_Passenger_Wagon_01_13.Wagon_01",
+          "FallbackTransform": "-300435.906250,-749533.312500,7844.805176|0.000000,12.500148,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Trainyard/SM_Train_Passenger_Wagon_01.SM_Train_Passenger_Wagon_01",
+          "Instance": 13
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_Trainyard_03_INT.Z_1_Trainyard_03_INT:PersistentLevel.BP_Train_Passenger_Wagon_2.Wagon_01",
+          "FallbackTransform": "-297928.781250,-748979.187500,7844.805176|0.000000,12.500148,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Trainyard/SM_Train_Passenger_Wagon_02.SM_Train_Passenger_Wagon_02",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_Trainyard_03_INT.Z_1_Trainyard_03_INT:PersistentLevel.BP_Train_Passenger_Wagon_5.Wagon_01",
+          "FallbackTransform": "-294821.312500,-747595.375000,7844.805176|0.000000,-126.553764,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Trainyard/SM_Train_Passenger_Wagon_01.SM_Train_Passenger_Wagon_01",
+          "Instance": 5
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_Trainyard_03_INT.Z_1_Trainyard_03_INT:PersistentLevel.BP_Train_Locomotive_11.Locomotive",
+          "FallbackTransform": "-291831.687500,-746604.312500,7844.832520|0.000000,-167.499908,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Trainyard/SM_Train_Locomotive_02.SM_Train_Locomotive_02",
+          "Instance": 11
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_Trainyard_03_INT.Z_1_Trainyard_03_INT:PersistentLevel.BP_Train_Passenger_Wagon_3.Wagon_01",
+          "FallbackTransform": "-290397.562500,-747303.937500,7844.805176|0.000000,-167.499817,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Trainyard/SM_Train_Passenger_Wagon_01.SM_Train_Passenger_Wagon_01",
+          "Instance": 3
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_Trainyard_03_INT.Z_1_Trainyard_03_INT:PersistentLevel.BP_Train_Locomotive_12.Locomotive",
+          "FallbackTransform": "-289077.187500,-745993.187500,7844.832520|0.000000,-167.499985,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Trainyard/SM_Train_Locomotive_01.SM_Train_Locomotive_01",
+          "Instance": 12
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_Trainyard_03_INT.Z_1_Trainyard_03_INT:PersistentLevel.BP_Train_Passenger_Wagon_4.Wagon_01",
+          "FallbackTransform": "-288359.625000,-746858.625000,7844.805176|0.000000,-167.499908,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Trainyard/SM_Train_Passenger_Wagon_02.SM_Train_Passenger_Wagon_02",
+          "Instance": 4
+        }
+      ],
+      "MinNeeded": 6,
+      "MaxNeeded": 12,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 200,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -295703.812,
+            "Y": -745552.312,
+            "Z": 7940.09
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    }
+  ]
+}

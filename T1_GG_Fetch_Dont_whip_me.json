@@ -1,0 +1,48 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 1,
+  "Title": "Don't whip me, mommy",
+  "Description": "Did you see the new Tyrant in Obsidia?  I sure hope she doesn't find me here, slacking off, only to whip me. Whatever would I do if she found me here and whipped me like the bad, bad boy that I am.",
+  "TimeLimitHours": 24.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 250,
+      "Fame": 10
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Long Stick",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Long_wooden_stick"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Tree Bark Rope",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Improvised_Plant_rope"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemUses": 5
+        }
+      ]
+    }
+  ]
+}

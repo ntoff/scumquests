@@ -1,0 +1,212 @@
+{
+  "AssociatedNpc": "Banker",
+  "Tier": 3,
+  "Title": "Making A Million",
+  "Description": "I had planned to loot the torpedo / mech factory to make a million bucks, but someone beat me to it. Go there and trace their steps so I can confront them and tell them what a bad person they are for touching MY loot and ruining my entire day.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 5000,
+      "Fame": 25,
+      "Skills": [
+        {
+          "Skill": "Awareness",
+          "Experience": 10000
+        },
+        {
+          "Skill": "Stealth",
+          "Experience": 5000
+        },
+        {
+          "Skill": "Rifles",
+          "Experience": 3000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Find where they entered",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_WeaponsFactory_02.Z_1_WeaponsFactory_02:PersistentLevel.ChildActor_GEN_VARIABLE_BP_Metal_Door_03_C_CAT_290.Door Mesh",
+          "FallbackTransform": "-433617.750000,-701791.437500,233.976822|0.000000,-135.000015,0.000000|0.887211,0.611844,0.917432",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Airport/Door_Windows/SM_Metal_Door_03.SM_Metal_Door_03",
+          "Instance": 2
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 100,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -433658.562,
+            "Y": -701832.188,
+            "Z": 327.15
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Inspect lockers (entry)",
+      "SequenceIndex": 1,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_WeaponsFactory_02_Int_01.Z_1_WeaponsFactory_02_Int_01:PersistentLevel.BPLockpick_Weapon_Locker_Military_GEN_VARIABLE_BPLockpick_Weapon_Locker_Military_C_CAT_0.MainMesh",
+          "FallbackTransform": "-434723.687500,-702860.687500,329.999939|0.000000,134.999969,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/Armory/Big_Closet_Closed/SM_Big_Closet_Closed_05.SM_Big_Closet_Closed_05",
+          "Instance": 1
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_WeaponsFactory_02_Int_01.Z_1_WeaponsFactory_02_Int_01:PersistentLevel.BPLockpick_Weapon_Locker_Military1_GEN_VARIABLE_BPLockpick_Weapon_Locker_Military_C_CAT_1.MainMesh",
+          "FallbackTransform": "-434664.500000,-702801.500000,329.999939|0.000000,134.999969,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/Armory/Big_Closet_Closed/SM_Big_Closet_Closed_05.SM_Big_Closet_Closed_05",
+          "Instance": 1
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_WeaponsFactory_02_Int_01.Z_1_WeaponsFactory_02_Int_01:PersistentLevel.BPLockpick_Weapon_Locker_Military2_GEN_VARIABLE_BPLockpick_Weapon_Locker_Military_C_CAT_2.MainMesh",
+          "FallbackTransform": "-434609.593750,-702746.562500,329.999939|0.000000,134.999969,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/Armory/Big_Closet_Closed/SM_Big_Closet_Closed_05.SM_Big_Closet_Closed_05",
+          "Instance": 1
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_WeaponsFactory_02_Int_01.Z_1_WeaponsFactory_02_Int_01:PersistentLevel.BPLockpick_Weapon_Locker_Military3_GEN_VARIABLE_BPLockpick_Weapon_Locker_Military_C_CAT_3.MainMesh",
+          "FallbackTransform": "-434385.093750,-702522.125000,329.999939|0.000000,134.999969,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/Armory/Big_Closet_Closed/SM_Big_Closet_Closed_05.SM_Big_Closet_Closed_05",
+          "Instance": 1
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_WeaponsFactory_02_Int_01.Z_1_WeaponsFactory_02_Int_01:PersistentLevel.BPLockpick_Weapon_Locker_Military4_GEN_VARIABLE_BPLockpick_Weapon_Locker_Military_C_CAT_4.MainMesh",
+          "FallbackTransform": "-434329.687500,-702466.687500,329.999939|0.000000,134.999969,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/Armory/Big_Closet_Closed/SM_Big_Closet_Closed_05.SM_Big_Closet_Closed_05",
+          "Instance": 1
+        }
+      ],
+      "MinNeeded": 3,
+      "MaxNeeded": 5,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 100
+    },
+    {
+      "TrackingCaption": "Inspect lockers (docks)",
+      "SequenceIndex": 1,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_WeaponsFactory_03.Z_1_WeaponsFactory_03:PersistentLevel.BPLockpick_Weapon_Locker_Military_GEN_VARIABLE_BPLockpick_Weapon_Locker_Military_C_CAT_0.MainMesh",
+          "FallbackTransform": "-454110.625000,-677805.500000,1473.574829|0.000000,-90.000137,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/Armory/Big_Closet_Closed/SM_Big_Closet_Closed_05.SM_Big_Closet_Closed_05",
+          "Instance": 3
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_WeaponsFactory_03.Z_1_WeaponsFactory_03:PersistentLevel.BPLockpick_Weapon_Locker_Military1_GEN_VARIABLE_BPLockpick_Weapon_Locker_Military_C_CAT_1.MainMesh",
+          "FallbackTransform": "-454190.468750,-677803.562500,1473.574829|0.000000,-90.000137,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/Armory/Big_Closet_Closed/SM_Big_Closet_Closed_05.SM_Big_Closet_Closed_05",
+          "Instance": 3
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_WeaponsFactory_03.Z_1_WeaponsFactory_03:PersistentLevel.BPLockpick_Weapon_Locker_Military2_GEN_VARIABLE_BPLockpick_Weapon_Locker_Military_C_CAT_2.MainMesh",
+          "FallbackTransform": "-454434.687500,-677803.562500,1473.574829|0.000000,-90.000137,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/Armory/Big_Closet_Closed/SM_Big_Closet_Closed_05.SM_Big_Closet_Closed_05",
+          "Instance": 3
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_WeaponsFactory_03.Z_1_WeaponsFactory_03:PersistentLevel.BPLockpick_Weapon_Locker_Military3_GEN_VARIABLE_BPLockpick_Weapon_Locker_Military_C_CAT_3.MainMesh",
+          "FallbackTransform": "-454480.187500,-677743.625000,1862.831909|0.000000,-0.000704,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/Armory/Big_Closet_Closed/SM_Big_Closet_Closed_05.SM_Big_Closet_Closed_05",
+          "Instance": 3
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_WeaponsFactory_03.Z_1_WeaponsFactory_03:PersistentLevel.BPLockpick_Weapon_Locker_Military4_GEN_VARIABLE_BPLockpick_Weapon_Locker_Military_C_CAT_4.MainMesh",
+          "FallbackTransform": "-454480.187500,-677822.062500,1862.831909|0.000000,-0.000704,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/Armory/Big_Closet_Closed/SM_Big_Closet_Closed_05.SM_Big_Closet_Closed_05",
+          "Instance": 3
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_WeaponsFactory_03.Z_1_WeaponsFactory_03:PersistentLevel.BPLockpick_Weapon_Locker_Military5_GEN_VARIABLE_BPLockpick_Weapon_Locker_Military_C_CAT_5.MainMesh",
+          "FallbackTransform": "-454480.187500,-677985.250000,1862.831909|0.000000,-0.000704,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/Armory/Big_Closet_Closed/SM_Big_Closet_Closed_05.SM_Big_Closet_Closed_05",
+          "Instance": 3
+        }
+      ],
+      "MinNeeded": 4,
+      "MaxNeeded": 6,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 100
+    },
+    {
+      "TrackingCaption": "Inspect lockers (middle)",
+      "SequenceIndex": 1,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_WeaponsFactory_01_Int_01.Z_1_WeaponsFactory_01_Int_01:PersistentLevel.BPLockpick_Weapon_Locker_Military_GEN_VARIABLE_BPLockpick_Weapon_Locker_Military_C_CAT_0.MainMesh",
+          "FallbackTransform": "-433184.281250,-675500.437500,340.000916|0.000000,-144.999985,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/Armory/Big_Closet_Closed/SM_Big_Closet_Closed_05.SM_Big_Closet_Closed_05",
+          "Instance": 1
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_WeaponsFactory_01_Int_01.Z_1_WeaponsFactory_01_Int_01:PersistentLevel.BPLockpick_Weapon_Locker_Military1_GEN_VARIABLE_BPLockpick_Weapon_Locker_Military_C_CAT_1.MainMesh",
+          "FallbackTransform": "-433232.281250,-675431.875000,340.000916|0.000000,-144.999985,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/Armory/Big_Closet_Closed/SM_Big_Closet_Closed_05.SM_Big_Closet_Closed_05",
+          "Instance": 1
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_WeaponsFactory_01_Int_01.Z_1_WeaponsFactory_01_Int_01:PersistentLevel.BPLockpick_Weapon_Locker_Military2_GEN_VARIABLE_BPLockpick_Weapon_Locker_Military_C_CAT_2.MainMesh",
+          "FallbackTransform": "-433276.812500,-675368.250000,340.000916|0.000000,-144.999985,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/Armory/Big_Closet_Closed/SM_Big_Closet_Closed_05.SM_Big_Closet_Closed_05",
+          "Instance": 1
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_WeaponsFactory_01_Int_01.Z_1_WeaponsFactory_01_Int_01:PersistentLevel.BPLockpick_Weapon_Locker_Military3_GEN_VARIABLE_BPLockpick_Weapon_Locker_Military_C_CAT_3.MainMesh",
+          "FallbackTransform": "-433368.468750,-675237.312500,340.000916|0.000000,-144.999985,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/Armory/Big_Closet_Closed/SM_Big_Closet_Closed_05.SM_Big_Closet_Closed_05",
+          "Instance": 1
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_WeaponsFactory_01_Int_01.Z_1_WeaponsFactory_01_Int_01:PersistentLevel.BPLockpick_Weapon_Locker_Military4_GEN_VARIABLE_BPLockpick_Weapon_Locker_Military_C_CAT_4.MainMesh",
+          "FallbackTransform": "-433458.906250,-675108.187500,340.000916|0.000000,-144.999985,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/Armory/Big_Closet_Closed/SM_Big_Closet_Closed_05.SM_Big_Closet_Closed_05",
+          "Instance": 1
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_WeaponsFactory_01_Int_01.Z_1_WeaponsFactory_01_Int_01:PersistentLevel.BPLockpick_Weapon_Locker_Military5_GEN_VARIABLE_BPLockpick_Weapon_Locker_Military_C_CAT_5.MainMesh",
+          "FallbackTransform": "-433503.843750,-675044.000000,340.000916|0.000000,-144.999985,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/Armory/Big_Closet_Closed/SM_Big_Closet_Closed_05.SM_Big_Closet_Closed_05",
+          "Instance": 1
+        }
+      ],
+      "MinNeeded": 4,
+      "MaxNeeded": 6,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 100
+    },
+    {
+      "TrackingCaption": "Find where they exited",
+      "SequenceIndex": 2,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_WeaponsFactory_03.Z_1_WeaponsFactory_03:PersistentLevel.SM_TrainTunel_wall6.StaticMeshComponent0",
+          "FallbackTransform": "-453443.875000,-662466.875000,220.000000|0.000000,114.999725,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Rails/RailRoad_Tunnel_01/SM_TrainTunnel_wall.SM_TrainTunnel_wall"
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": false,
+      "WorldMarkerShowDistance": 100
+    }
+  ]
+}

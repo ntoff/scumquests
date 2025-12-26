@@ -1,0 +1,118 @@
+{
+  "AssociatedNpc": "Mechanic",
+  "Tier": 2,
+  "Title": "Check Tanks For Fuel",
+  "Description": "Rumor has it there's still some fuel left in the tanks at the D4 airfield inside and around the hangar. Go there and inspect them and report back.",
+  "TimeLimitHours": 24.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 6000,
+      "Fame": 25,
+      "Skills": [
+        {
+          "Skill": "Awareness",
+          "Experience": 2000
+        },
+        {
+          "Skill": "Camouflage",
+          "Experience": 1000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "Gasoline_Canister",
+          "Price": 50,
+          "Amount": 1,
+          "Fame": 0,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Inspect inside tanks",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Airport_Zeljava_Entrance_02.D_4_Airport_Zeljava_Entrance_02:PersistentLevel.BP_Hangar_3.SM_Airport_Tank_01_RW_Blue_0_ISMA",
+          "FallbackTransform": "490326.687500,589155.187500,8003.661621|0.000000,89.999817,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Airport/Props/Airport_Tanks_01_RW/SM_Airport_Tank_01_RW.SM_Airport_Tank_01_RW",
+          "Instance": 1
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Airport_Zeljava_Entrance_02.D_4_Airport_Zeljava_Entrance_02:PersistentLevel.BP_Hangar_3.SM_Airport_Tank_01_RW_Blue_0_ISMA",
+          "FallbackTransform": "490027.625000,589155.187500,8003.661621|0.000000,-90.000114,0.000000|1.000999,1.000999,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Airport/Props/Airport_Tanks_01_RW/SM_Airport_Tank_01_RW.SM_Airport_Tank_01_RW",
+          "Instance": 3
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Airport_Zeljava_Entrance_02.D_4_Airport_Zeljava_Entrance_02:PersistentLevel.BP_Hangar_3.SM_Airport_Tank_01_RW_Blue_0_ISMA",
+          "FallbackTransform": "489728.125000,589155.187500,8003.661621|0.000000,89.999817,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Airport/Props/Airport_Tanks_01_RW/SM_Airport_Tank_01_RW.SM_Airport_Tank_01_RW",
+          "Instance": 4
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Airport_Zeljava_Entrance_02.D_4_Airport_Zeljava_Entrance_02:PersistentLevel.BP_Hangar_3.SM_Airport_Tank_01_RW_Blue_0_ISMA",
+          "FallbackTransform": "490326.687500,589155.187500,8191.661621|0.000000,89.999817,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Airport/Props/Airport_Tanks_01_RW/SM_Airport_Tank_01_RW.SM_Airport_Tank_01_RW",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Airport_Zeljava_Entrance_02.D_4_Airport_Zeljava_Entrance_02:PersistentLevel.BP_Hangar_3.SM_Airport_Tank_01_RW_Blue_0_ISMA",
+          "FallbackTransform": "490027.625000,589155.187500,8191.661621|0.000000,-90.000114,0.000000|1.000999,1.000999,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Airport/Props/Airport_Tanks_01_RW/SM_Airport_Tank_01_RW.SM_Airport_Tank_01_RW",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Airport_Zeljava_Entrance_02.D_4_Airport_Zeljava_Entrance_02:PersistentLevel.BP_Hangar_3.SM_Airport_Tank_01_RW_Blue_0_ISMA",
+          "FallbackTransform": "489728.125000,589155.187500,8191.661621|0.000000,89.999817,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Airport/Props/Airport_Tanks_01_RW/SM_Airport_Tank_01_RW.SM_Airport_Tank_01_RW",
+          "Instance": 5
+        }
+      ],
+      "MinNeeded": 3,
+      "MaxNeeded": 6,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 10
+    },
+    {
+      "TrackingCaption": "Inspect outside tanks",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Airport_Zeljava_Entrance_02.D_4_Airport_Zeljava_Entrance_02:PersistentLevel.SM_Airport_Tank_01ISMA.InstancedStaticMesh",
+          "FallbackTransform": "485331.062500,594717.375000,8003.310547|0.000000,0.000000,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Airport/Props/Airport_Tanks_01_RW/SM_Airport_Tank_01_RW.SM_Airport_Tank_01_RW",
+          "Instance": 3
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Airport_Zeljava_Entrance_02.D_4_Airport_Zeljava_Entrance_02:PersistentLevel.SM_Airport_Tank_01ISMA.InstancedStaticMesh",
+          "FallbackTransform": "485331.062500,594401.687500,8003.310547|0.000000,0.000000,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Airport/Props/Airport_Tanks_01_RW/SM_Airport_Tank_01_RW.SM_Airport_Tank_01_RW",
+          "Instance": 1
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Airport_Zeljava_Entrance_02.D_4_Airport_Zeljava_Entrance_02:PersistentLevel.SM_Airport_Tank_01ISMA.InstancedStaticMesh",
+          "FallbackTransform": "485331.062500,594075.625000,8003.310547|0.000000,0.000000,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Airport/Props/Airport_Tanks_01_RW/SM_Airport_Tank_01_RW.SM_Airport_Tank_01_RW",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Airport_Zeljava_Entrance_02.D_4_Airport_Zeljava_Entrance_02:PersistentLevel.SM_Airport_Tank_01ISMA.InstancedStaticMesh",
+          "FallbackTransform": "485331.062500,593754.937500,8003.310547|0.000000,0.000000,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Airport/Props/Airport_Tanks_01_RW/SM_Airport_Tank_01_RW.SM_Airport_Tank_01_RW",
+          "Instance": 2
+        }
+      ],
+      "MinNeeded": 2,
+      "MaxNeeded": 4,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 10
+    }
+  ]
+}

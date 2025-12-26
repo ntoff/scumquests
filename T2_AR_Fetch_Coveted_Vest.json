@@ -1,0 +1,71 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 2,
+  "Title": "Coveted Vest",
+  "Description": "Fetch the necessary materials and the vest will be yours.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "TradeDeals": [
+        {
+          "Item": "Danny_Trejo_Vest",
+          "Price": 0,
+          "Amount": 1,
+          "Fame": 0,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Improvised Sewing Kit",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Improvised_Sewing_kit"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemUses": 8
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Human Skins",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Human_Skin"
+          ],
+          "RequiredNum": 5
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Rags",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Rags"
+          ],
+          "RequiredNum": 4
+        }
+      ]
+    }
+  ]
+}

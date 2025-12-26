@@ -1,0 +1,37 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 1,
+  "Title": "It's cold in Canada",
+  "Description": "It's cold and I have a client who requires some leggings to stay warm. Please bring me a specific pair to satisfy their needs. You need to supply me with one pair of leopard print leggings.",
+  "TimeLimitHours": 168.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1500,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Awareness",
+          "Experience": 1000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Leopard Print Leggings",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Tights_01_05"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    }
+  ]
+}

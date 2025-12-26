@@ -1,0 +1,47 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 1,
+  "Title": "Letters Home",
+  "Description": "We might be monsters now, but some of us had families. Bring some pens and diaries so that prisoners can write home to their loved ones to say goodbye.",
+  "TimeLimitHours": 168.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1500,
+      "Fame": 15
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Pens",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Pen"
+          ],
+          "RequiredNum": 5
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Diaries",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Diary"
+          ],
+          "RequiredNum": 5
+        }
+      ]
+    }
+  ]
+}
