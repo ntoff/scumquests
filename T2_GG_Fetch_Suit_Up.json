@@ -1,0 +1,62 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 2,
+  "Title": "Suit Up",
+  "Description": "Fetch the necessary materials and the clothes will be yours.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "TradeDeals": [
+        {
+          "Item": "LuisMoncada_Jacket",
+          "Price": 0,
+          "Amount": 1,
+          "Fame": 0,
+          "AllowExcluded": true
+        },
+        {
+          "Item": "LuisMoncada_Pants",
+          "Price": 0,
+          "Amount": 1,
+          "Fame": 0,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Improvised Sewing Kit",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Improvised_Sewing_kit"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemUses": 8
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Rags x20",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Rags"
+          ],
+          "RequiredNum": 20
+        }
+      ]
+    }
+  ]
+}
